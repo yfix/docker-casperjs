@@ -1,4 +1,4 @@
-FROM yfix/gulp
+FROM yfix/phantomjs
 
 MAINTAINER Yuri Vysotskiy (yfix) <yfix.dev@gmail.com>
 
