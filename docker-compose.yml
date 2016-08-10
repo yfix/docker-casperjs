@@ -1,9 +1,11 @@
-casperjs:
-  build: .
-#  image: yfix/casperjs
-  container_name: yfix_casperjs
-  ports:
-    - 30084:8080
-  restart: always
-#  volumes:
-#    - .:/app
+version: '2'
+services:
+  casperjs:
+    build: .
+#    image: yfix/casperjs
+    container_name: yfix_casperjs
+    ports:
+      - 30084:8080
+    restart: always
+#    volumes:
+#      - .:/app
